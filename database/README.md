@@ -28,7 +28,7 @@ docker build -t laustefania/facturion .
 ### 4. Build database image
 
 ```
-docker run --name facturion -p 5432:5432 -e POSTGRES_PASSWORD=aP4sw0rd laustefania/facturion
+docker run --name facturion -p 0.0.0.0:5432:5432 -e POSTGRES_PASSWORD=aP4sw0rd laustefania/facturion
 
 ``` 
 
